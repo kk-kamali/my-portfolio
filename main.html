@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kamali's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-left">
+    <button id="toggleMode">🌙</button>
+  </div>
+   <button class="menu-toggle" id="menuToggle">&#9776;</button>
+     <ul class="nav-right">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="home-section">
+    <div class="intro">
+      <h1 class="slide-in">Kamali K K</h1>
+      <p>Aspiring Software Developer</p>
+      <a href="KAMALI K K - RESUME.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <img src="Kamali.png" alt="Kamali's Photo" class="profile-pic"/>
+      <p class="about-text">
+        A Computer Science and Engineering graduate with a strong foundation in Java programming, OOP concepts, and SDLC. Proficient in logical thinking, problem-solving, and developing innovative solutions. A quick learner, proactive team player with a passion for technology.
+      </p>
+    <div class="education-certification">
+    <div class="education-box">
+        <h3>Education</h3>
+        <ul>
+          <li><strong>BE - Computer Science And Engineering</strong>
+            <ul>
+              <li>St. Xavier's Catholic College of Engineering</li>
+              <li>CGPA: 8.1</li>
+            </ul>
+          </li>
+          <li><strong>HSC - Computer Science</strong>
+            <ul>
+              <li>Sree Narayana Guru Matriculation Higher Secondary School</li>
+              <li>Grade: 91%</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="education-box">
+        <h3>Certifications</h3>
+        <ul>
+          <li>Infosys SpringBoard - Java Foundation Certificate</li>
+          <li>NPTEL - Cloud Computing</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills"  class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Java</li>
+          <li>HTML & CSS</li>
+          <li>SQL</li>
+          <li>Java Script</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+          <li>Attention to Detail</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience"  class="section">
+    <h2 class="section-title">Experience</h2>
+    <div class="internship-box">
+      <h3>Internships</h3>
+      <p><strong>AK InfoPark</strong> - Web Development</p>
+        </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects"  class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="box-container">
+      <div class="box">
+        <h3>Portfolio Website</h3>
+        <p>Created a personal portfolio using HTML and CSS with responsive design and smooth navigation to showcase skills, education, and projects.</p>
+      </div>
+      <div class="box">
+        <h3>Student Course Enrollment System</h3>
+        <p>Developed a Java application with SQL Server integration for course enrollment, featuring secure login, user registration, course listing, and enrollment using JDBC and object-oriented design.</p>
+      </div>
+      <div class="box">
+        <h3>IOT Based Smart Streetlight Monitoring and Notification Systems Developed</h3>
+        <p>Developed an IoT-based fault detection system for smart streetlights using Java, AES encryption, Firebase, and Node.js to enable real-time monitoring and instant fault notifications via mobile app.</p>
+        </div>
+       <div class="box">
+        <h3>Calculator Application</h3>
+        <p>Built a Java Swing-based calculator supporting multi-step arithmetic operations with a clean, user-friendly interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact"  class="section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-container">
+      <div class="contact-item"><img src="phone-call.png" alt="Phone">9629435715</div>
+      <div class="contact-item"><img src="icons8-gmail-48.png" alt="Email"><a href="mailto:kamalikk2004@gmail.com">kamalikk2004@gmail.com</a></div>
+      <div class="contact-item"><img src="linkedin.png" alt="LinkedIn"><a href="https://linkedin.com/in/kamali-k-k" target="_blank">https://linkedin.com/in/kamali-k-k</a></div>
+      <div class="contact-item"><img src="icons8-github-48.png" alt="GitHub"><a href="https://github.com/kk-kamali" target="_blank">https://github.com/kk-kamali</a></div>
+    </div>
+
+    <form class="contact-form">
+      <form action="https://formspree.io/f/meozaojk" method="POST"
+>     <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
