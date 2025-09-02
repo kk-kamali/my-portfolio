@@ -204,7 +204,7 @@ nav.transparent {
 }
 
 .btn:hover {
-  background-color: wheat;
+  background-color: rgb(238, 204, 204);
 }
 /* Slide-in animation class */
 .slide-in {
@@ -324,7 +324,7 @@ section-title h2{
   border-radius: 10px;
   padding: 20px;
   width: 350px;
-  min-height: 220px;
+  min-height:220px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align:center;
 }
@@ -428,18 +428,52 @@ section-title h2{
 }
 
 /* Responsive */
-@media (max-width: 768px) {
-  .home-section,.box-container {
-    justify-content: center;
-    text-align: center;
-    padding-left: 0;
+/* ✅ Responsive Fixes */
+@media (max-width: 1200px) {
+  section {
+    padding: 60px 40px; /* add breathing space left/right */
   }
+}
 
-  .about-container {
+@media (max-width: 992px) {
+  .box-container,
+  .education-certification,
+  .about-container,
+  .contact-container {
     flex-direction: column;
+    align-items: center;
   }
 
-  nav ul {
+  .box,
+  .education-box {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 50px 20px;
+  }
+  
+  .home-section {
     justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1.2rem;
+  }
+  .box{
+    min-height:360px;
   }
 }
